@@ -1,0 +1,84 @@
+#in{
+    background: #F7F5EB   ;
+    position: absolute;
+    top: 70px;
+    left: 20px;
+}
+
+h4{
+    color: brown;
+    text-align: center;
+    line-height: 20px;
+}
+#lorem50{
+    text-align: justify;
+    text-indent: 30px;
+    width: ;
+    height: 200px;
+}
+#lorem{
+    text-indent: 30px;
+    text-align: justify;
+}
+
+h1{
+    background: red;
+    position: relative;
+    /* top: 140px; */
+    /* left: 20px; */
+    /* z-index: -1; */
+}
+
+h2{
+    font-sieze: 24px;
+    background: cyan;
+    font-weight: bold;
+    /* display: inline; */
+    /* z-index: -1; */
+}
+
+.menu{
+    /* margin: top right bottom left; */
+    margin: 20px 24px 50px 24px;
+    background: #EAE0DA;
+    border: 3px solid red;
+    padding: 20px 10px;
+}
+
+.page{
+    margin: 10px;
+    padding: 10px;
+}
+
+table{
+    float: ;
+}
+
+#cr{
+    text-align: center;
+}
+
+/* Langsung dibawah parent nya */
+div > a{
+    background: aqua;
+}
+
+/* Setelah element */
+div + div{
+    background: aqua;
+}
+
+/* Memilih semua bagian yang ada dibawahnya */
+div ~ p{
+    background: red;
+}
+
+input:focus{
+    background: yellow;
+}
+
+.hp{
+    background: #EAC7C7;
+}
+
+
